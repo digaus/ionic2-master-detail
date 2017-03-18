@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detail</ion-title>
+    <ion-buttons end>
+      <button *ngIf="!disableExpand" ion-button icon-only (click)="expand()">
+        <ion-icon name="expand"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h3>{{content.id}}. {{content.name}}</h3>
+</ion-content>

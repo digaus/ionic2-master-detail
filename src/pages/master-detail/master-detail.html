@@ -1,0 +1,11 @@
+
+<!-- 
+  Custom split pane so the right nav will be moved out when too small 
+  Also some CSS to make left nav smaller and right nav bigger
+-->
+<ion-split-pane class="reversed-split-pane" (ionChange)="changePane()">
+
+  <ion-nav [class.master]="applyClass" [root]="rootMaster" #masterNav swipeBackEnabled="false" main></ion-nav>
+  <ion-nav class="detail" [root]="rootDetail" #detailNav swipeBackEnabled="false" ></ion-nav>
+
+</ion-split-pane>

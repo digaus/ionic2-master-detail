@@ -1,0 +1,13 @@
+page-master-detail {
+    .reversed-split-pane {
+        flex-direction: row-reverse;
+
+        .detail{
+            max-width:100% !important;
+        }
+        .master{
+            border-right: 1px solid #dedede;
+            max-width: 400px;
+        }
+    }
+}
