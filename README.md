@@ -4,6 +4,8 @@ Short example of a master/detail app, created with latest Ionic 2 version.
 There is a bug when the detail page is pushed and you resize to bigger screen and pop the detail page (press back). 
 The content will then be placed behind both headers.
 
+Demo: http://imgur.com/a/8WFtU
+
 Cordova CLI: 6.1.1
 Ionic Framework Version: 2.2.0
 Ionic CLI Version: 2.1.8
