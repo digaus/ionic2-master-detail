@@ -22,13 +22,13 @@ export class DetailPage {
     this.content =  navParams.data;
   }
 
-  ionViewDidLoad() {
+  ionViewDidEnter() {
     //Needed to add short delay otherwise canGoBack() fires always true
     setTimeout(()=>{
       this.disableExpand = this.navCtrl.canGoBack();
     },50);
 
-    console.log('ionViewDidLoad DetailPage');
+    console.log('ionViewDidEnter DetailPage');
   }
 
   //When allowed user can expand which pushes site onto stack
